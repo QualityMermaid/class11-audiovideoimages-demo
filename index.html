@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Audio Video Elements</h1>
+    </header>
+
+    <main class="grid">
+        <section>
+            <h2> Audio </h2>
+            <!-- <audio id="piano-music" src="assets/Piano Sonata No. 2 in F Major, K. 280： I. Allegro Assai.m4a" muted controls></audio> -->
+            <audio id="piano-music" src="assets/Piano Sonata No. 2 in F Major, K. 280： I. Allegro Assai.m4a" controls></audio>
+            <ul>
+                <li> Autoplay: Boolean; use sparingly</li>
+                <li> controles: provide playback controles to user</li>
+                <li>loop: music will start playing again</li>
+                <li>muted: audio is muted when page loads</li>
+                <li>src: link to the audio sourse file</li>
+                <li>volume: 0.0 - 1.0 quietest to loudest</li>
+            </ul>
+            <button id="randomizer">Set random volume </button>
+        </section>
+        <section>
+            <h2> Video </h2>
+            <video id="roro" src="assets/20230603_110115.mp4" width="400" height="220" muted loop controls autoplay></video>
+        </section>
+    </main>
+
+    <footer>
+        This is a demo page
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
